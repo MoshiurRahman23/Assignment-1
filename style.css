@@ -2,11 +2,35 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Poppins', sans-serif;
+    background-color: aliceblue;
+}
+.half-body{
+    margin: 10px;
+    padding: 15px;
 }
 h1{
     text-align: center;
     font-size: 70px ;
     color: white;
+}
+h2{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+
+}
+h3{
+    padding: 5px;
+    font-size: 35px;
+    font-style:italic;
+    
+}
+h4{
+    font-size: 50px;
+}
+h5{
+    font-size: 70px;
+    font-style:italic;
 }
 p{
     text-align: center;
@@ -40,52 +64,172 @@ p{
     color: white;
     font-weight: 700;
     align-items: center;
+    cursor: pointer ;
 
 }
-h2{
+.donate-plan{
+    margin: 50px;
+}
+.paragraph{
     text-align: center;
     color: black;
-    font-size: 50px;
-
+    font-size:x-large ;
 }
-.donate{
+ 
+.donate-today{
+    background-color: rgb(255, 255, 255);
+    border: 250px;
+    padding-top: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+
+.btn-2{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    color: rgba(0, 0, 0, 0.744);
-    font-size: x-large;
-}
-.donate-part{
-    background-color: beige;
-}
-.button-div{
-    align-items: center;
-}
-/* .donate-button{
-    text-decoration: none;
-    padding: 40px 20px;
-    border-radius: 10px;
-    font-size: larger;
-    color: black;
-    background-color: grey;
-    font-weight: 700;
-    align-items: center;
-    border: 5px;
-} */
-/* .donate-button-2{
-    text-decoration: none;
-    padding: 40px 20px;
-    border-radius: 10px;
-    font-size: larger;
-    color: black;
-    background-color:antiquewhite;
-    font-weight: 700;
-    align-items: center;
-    border: 2px solid red;
+    min-height: 5vh;
+    
 
-} */
+}
+.donate-amount{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(243, 196, 140);
+    padding: 50px 50px;
+    border-radius: 10px;
+    font-size: 40px;
+    cursor: pointer;
+    cursor:;
+}
+.donate-amount-1{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(230, 0, 23);
+    padding: 40px 40px;
+    border-radius: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    cursor:;
+}
+.btn-div-1{
+    padding: 10px;
+}
+
+.btn-8{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    min-height: 20vh;
+    cursor: pointer;
+
+}
+.paragraph-1{
+    text-align: left;
+    color: black;
+    font-size: large;
+    padding: 5px;
+
+}
+.donate-plan{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.donate-div-1{
+    background-color: rgb(217, 237, 243);
+    margin: auto;
+    border: 15px;
+    width: 30%;
+    height: 35vh;
+    padding: 10px;
+    border-radius: 10px;
+    font-size:30px;
+    
+
+}
+.donate-div-2{
+    background-color: rgb(253, 199, 213);
+    margin: auto;
+    border: 15px;
+    width: 30%;
+    padding: 10px;
+    height: 35vh;
+    border-radius: 10px;
+    font-size:30px;
+
+}
+.donate-div-3{
+    background-color: rgb(222, 188, 138);
+    margin: auto;
+    border: 15px;
+    padding: 10px;
+    width: 30%;
+    height: 35vh;
+    border-radius: 10px;
+    font-size:30px;
+
+}
+.their-lives-area{
+    display: flex;
+    padding-top: 20px;
+    position: relative;
+    justify-content: center;
+}
+.half-width{
+    width: 60%;
+    padding: 8%;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
+.forn-box{
+    width: 700px;
+    border: 400px;
+    padding: 70px;
+    border-radius: 10px;
+    background: rgb(240, 210, 170)
+    
+}
+.forn-box input{
+    font-size: 30px;
+    color: black;
+    padding: 15px 20px;
+    border-radius: 2px;
+    outline: auto;
+    
+}
+.forn-box button{
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    outline: auto;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+
+}
 .footer{
+
     text-align: center;
     text-overflow: initial;
+    padding: 25px;
     text-decoration: double;
     color: red;
     background-color: black;
+}
+.footer-div{
+
+    margin: none ;
+    padding-top: 50px;
+
 }
